@@ -1,6 +1,21 @@
 
+#Tip Calc not done
 
+x = "bill"
+tip = (0,0.15,0.2,0.25)
+total = (x*tip)
+if tip >= 0:
+    print('bad')
+else: tip == (x*0.15)
+    print('okay')
+elif: tip == 2
+    print('good')
+elif: tip == 2
+    print('great')
 
+#F strings
+""" x = "test"
+print(f"hello {x}") """
 
 """ values = [1,2.23,5,7,2,30,15] """
 """ print(values)
