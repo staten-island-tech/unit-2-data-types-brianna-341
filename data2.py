@@ -1,17 +1,17 @@
 
 #Tip Calc not done
-
 x = "bill"
-tip = (0,0.15,0.2,0.25)
-total = (x*tip)
-if tip >= 0:
+tip = float[0,0.15,0.2,0.25]
+tip_calc = input("How was the service?")
+if tip == 0:
     print('bad')
-else: tip == (x*0.15)
+elif tip == [0.15]:
     print('okay')
-elif: tip == 2
+elif tip == [0.2]:
     print('good')
-elif: tip == 2
-    print('great')
+else: tip == [0.25]
+print('great')
+
 
 #F strings
 """ x = "test"
@@ -24,18 +24,32 @@ for i in values:
 """ print(values[2])
 print(values[6]) """
 
-#challenge 1 redo
-""" x = "hello how are you"
-y= x.split( )
-z = y[0]
-print(y)
-print(z) """
-
+#challenge 1 done yay
+""" number = int(input("number:"))
+if (number%2):
+    print ("odd")
+else:
+    print ("even") """
+#####
+""" odd_or_even = input("Input value to see if its odd or even.")
+values = [0,2,4,6,8]
+Odd = [1,3,5,7,9]
+if values < (values):
+    print("odd")
+elif values == values:
+    print("even") """
+""" 
+day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect")
+ """
 #challenge 2  redo
 """ zoo = input("zoo")
 house = input("house")
 madlibs =  """
-
+####
 """ x = "test"
 print(f"hello {x}") """
 """ 
