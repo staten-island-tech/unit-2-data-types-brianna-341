@@ -1,16 +1,15 @@
 
 #Tip Calc not done
-x = "bill"
-tip = float[0,0.15,0.2,0.25]
-tip_calc = input("How was the service?")
-if tip == 0:
-    print('bad')
-elif tip == [0.15]:
-    print('okay')
-elif tip == [0.2]:
-    print('good')
-else: tip == [0.25]
-print('great')
+bill = int(input("bill:"))
+service = input("How was the service?")
+if service == "bad":
+    print(x*0)
+elif service == "okay":
+    print(x*0.15)
+elif service == "good":
+    print(x*0.20)
+else: service == "great"
+print(x*0.25)
 
 
 #F strings
@@ -24,7 +23,7 @@ for i in values:
 """ print(values[2])
 print(values[6]) """
 
-#challenge 1 done yay
+#challenge 1 don
 """ number = int(input("number:"))
 if (number%2):
     print ("odd")
@@ -65,3 +64,8 @@ else:
 values = [0,2,4,6,8,10]
 if values : [3,5,7,11]
     print(odd) """
+
+
+#challenge 4
+""" def gcf(num1,num2):
+    if num1 > num2: """
