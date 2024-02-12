@@ -1,15 +1,20 @@
 
-#Tip Calc not done
-bill = int(input("bill:"))
+#Tip Calc  done?
+""" bill = int(input("bill:"))
 service = input("How was the service?")
+bll1 = bill*0
+bll2 = bill*0.15
+bll3 = bill*0.20
+bll4 = bill*0.25
+
 if service == "bad":
-    print(x*0)
+    print(bill+bll1)
 elif service == "okay":
-    print(x*0.15)
+    print(bill+bll2)
 elif service == "good":
-    print(x*0.20)
-else: service == "great"
-print(x*0.25)
+    print(bill+bll3)
+elif service == "great":
+    print(bill+bll4) """
 
 
 #F strings
@@ -66,6 +71,10 @@ if values : [3,5,7,11]
     print(odd) """
 
 
-#challenge 4
-""" def gcf(num1,num2):
-    if num1 > num2: """
+#challenge 4 GCF not done
+""" num1 = int(input("Enter first Number:"))
+num2 = int(input("Enter second Number:"))
+factors = [0,1,2,3,4,5,6,7,8,9]
+def check_if_gcf(num1,num2):
+    if(num1%factors == num2%factors):
+        factors.append() """
