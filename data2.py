@@ -72,9 +72,9 @@ if values : [3,5,7,11]
 
 
 #challenge 4 GCF not done
-""" num1 = int(input("Enter first Number:"))
+num1 = int(input("Enter first Number:"))
 num2 = int(input("Enter second Number:"))
 factors = [0,1,2,3,4,5,6,7,8,9]
 def check_if_gcf(num1,num2):
-    if(num1%factors == num2%factors):
-        factors.append() """
+    if(num1== num2):
+        factors.append()
