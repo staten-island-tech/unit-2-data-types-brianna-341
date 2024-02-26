@@ -81,5 +81,5 @@ if values : [3,5,7,11]
 num2 = int(input("Enter second Number:"))
 factors = [0,1,2,3,4,5,6,7,8,9]
 def check_if_gcf(num1,num2):
-    if(num1== num2):
+    if(num1 == num2):
         factors.append() """
